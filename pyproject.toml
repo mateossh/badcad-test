@@ -1,0 +1,14 @@
+[project]
+name = "badcadtest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "badcad",
+    "pycairo>=1.27.0",
+    "svgelements>=1.9.6",
+]
+
+[tool.uv.sources]
+badcad = { git = "https://github.com/wrongbad/badcad.git" }
